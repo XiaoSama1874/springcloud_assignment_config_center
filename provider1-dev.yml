@@ -1,0 +1,25 @@
+#server:
+#  port: 8001
+spring:
+  application:
+    name: provider
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/assignment?characterEncoding=utf-8&serverTimezone=GMT%2B8
+#    username: root
+#    password: xiaobin123
+#mybatis:
+#  mapper-locations: classpath:mybatis/mapper/*.xml
+#  type-aliases-package: xiaosama.neu.springcloud.bean
+#
+#
+#logging:
+#  level:
+#    root: INFO
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://eureka1:7001/eureka/,http://eureka2:7002/eureka/,http://eureka3:7003/eureka/
+#  instance:
+#    instance-id: provider1
+#    prefer-ip-address: true
